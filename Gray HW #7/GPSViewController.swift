@@ -63,10 +63,7 @@ class GPSViewController: UIViewController, CLLocationManagerDelegate {
             
             
         }
-        else
-        {
-            // add action if error with GPS
-        }
+       
     }
     
     
