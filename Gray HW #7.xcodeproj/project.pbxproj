@@ -15,6 +15,8 @@
 		522986B7245E39C900854E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522986B5245E39C900854E51 /* LaunchScreen.storyboard */; };
 		522986C2245E39CA00854E51 /* Gray_HW__7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522986C1245E39CA00854E51 /* Gray_HW__7Tests.swift */; };
 		522986CD245E39CA00854E51 /* Gray_HW__7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522986CC245E39CA00854E51 /* Gray_HW__7UITests.swift */; };
+		522986DB245E3BAD00854E51 /* myrtlebeach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 522986DA245E3BAD00854E51 /* myrtlebeach.jpg */; };
+		522986DD245F54E600854E51 /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522986DC245F54E600854E51 /* GPSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		522986C8245E39CA00854E51 /* Gray HW #7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gray HW #7UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		522986CC245E39CA00854E51 /* Gray_HW__7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gray_HW__7UITests.swift; sourceTree = "<group>"; };
 		522986CE245E39CA00854E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522986DA245E3BAD00854E51 /* myrtlebeach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = myrtlebeach.jpg; path = ../../../../Documents/myrtlebeach.jpg; sourceTree = "<group>"; };
+		522986DC245F54E600854E51 /* GPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				522986AC245E39C600854E51 /* SceneDelegate.swift */,
 				522986AE245E39C600854E51 /* ViewController.swift */,
 				522986B0245E39C600854E51 /* Main.storyboard */,
+				522986DC245F54E600854E51 /* GPSViewController.swift */,
 				522986B3245E39C900854E51 /* Assets.xcassets */,
 				522986B5245E39C900854E51 /* LaunchScreen.storyboard */,
 				522986B8245E39C900854E51 /* Info.plist */,
+				522986DA245E3BAD00854E51 /* myrtlebeach.jpg */,
 			);
 			path = "Gray HW #7";
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				522986B7245E39C900854E51 /* LaunchScreen.storyboard in Resources */,
 				522986B4245E39C900854E51 /* Assets.xcassets in Resources */,
+				522986DB245E3BAD00854E51 /* myrtlebeach.jpg in Resources */,
 				522986B2245E39C600854E51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 				522986AF245E39C600854E51 /* ViewController.swift in Sources */,
 				522986AB245E39C600854E51 /* AppDelegate.swift in Sources */,
 				522986AD245E39C600854E51 /* SceneDelegate.swift in Sources */,
+				522986DD245F54E600854E51 /* GPSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
